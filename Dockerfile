@@ -9,6 +9,5 @@ ENV WEB_VNC="true"
 # 6080: VNC web interface for visualizing the emulator
 # 5555: ADB interface for debugging and communication
 EXPOSE 6080
-EXPOSE 5555
 
 # Entrypoint is already set in the base image to start the emulator
